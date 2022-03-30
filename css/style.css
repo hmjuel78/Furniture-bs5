@@ -368,3 +368,209 @@ body{
 .tab_content .tab-pane .b1{
     padding-top: 35px;
 }
+/* ===== categori css end ===== */
+
+
+.lst_product{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.lst_product .lst_content h3{
+    font-size: 2rem;
+    color: #252525;
+    
+}
+.lst_product .lst_content h2{
+    font-size: 3rem;
+    color: #24d278;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+/* ===== lst_product css end ===== */
+
+
+.features{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.features .features_item{
+    position: relative;
+    z-index: 1;
+    padding: 76px 35px 10px 35px;
+    background: #e4e5e9;
+    transition: all linear .3s;
+}
+
+.features .features_item:hover{
+    background: #24d278;
+}
+.features .features_item img{
+    position: relative;
+    z-index: 2;
+}
+
+.features .features_item .overlay_txt span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #252525;
+    color: #fff;
+    padding: 5px 30px;
+}
+
+.features .features_item .overlay_txt .txt{
+    padding-top: 30px;
+}
+.features .features_item .overlay_txt .txt h4{
+    font-size: 1rem;
+    color: #24d278;
+    transition: all linear .3s;
+}
+.features .features_item .overlay_txt .txt p{
+    transition: all linear .2s;
+}
+
+.features .features_item:hover .overlay_txt .txt h4{
+    color: #fff;
+}
+.features .features_item:hover .overlay_txt .txt p{
+    color: #fff;
+}
+/* ===== features css end ===== */
+
+
+.contact{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.contact form.form-control{
+    box-shadow: none;
+}
+
+.contact .form-control{
+    border: none;
+    box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 16%);
+    margin-bottom: 30px;
+    padding: 15px 25px;
+}
+
+.contact textarea.form-control{
+    resize: none;
+    padding: 30px 25px;
+}
+
+.contact form .btn_one{
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.contact iframe{
+    height: 375px;
+    width: 100%;
+
+}
+
+/* ===== contact css end ===== */
+
+.testi{
+    padding-bottom: 90px;
+
+}
+
+.testi .heading_one{
+    margin-bottom: 50px;
+}
+.testi .testi_content{
+   background: #fff;
+   box-shadow: 0px 0px 20px 0 rgb(0 0 0 / 10%);
+   padding: 25px;
+   transition: all linear .2s;
+}
+.testi .testi_content:hover{
+   background: #f3f3f3;
+   box-shadow: none;
+}
+.testi .testi_content .txt{
+    margin-left: -16px;
+}
+.testi .testi_content .txt h4{
+   font-size: 1.25rem;
+   color: #0c0c0c;
+   font-weight: bold;
+}
+.testi .testi_content .txt p{
+   color: #24d278;
+}
+.testi .testi_content .para p{
+   margin-top: 35px;
+}
+.testi .testi_content .para i{
+   font-size: 24px;
+   transition: all linear .2s;
+}
+.testi .testi_content:hover .para i{
+   color: #24d278;
+}
+
+.footer{
+    background: #0f1521;
+    padding: 45px 0;
+    color: #fff;
+}
+.footer .ftr_logo{
+    border-bottom: 1px solid #fff;
+    margin: 0 10%;
+    margin-bottom: 40px;
+}
+
+.footer .ftr_logo h2{
+    margin-bottom: 20px;
+}
+
+.footer .ftr_item h4{
+    margin-bottom: 25px;
+}
+.footer .ftr_item p i{
+    margin-right: 7px;
+    font-size: 22px;
+}
+.footer .ftr_item a img{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.footer .ftr_item form.form-control{
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+.footer .ftr_item form .form-control{
+    border: none;
+    border-radius: 0;
+    outline: none;
+    padding: 7px 10px;
+    box-shadow: none;
+    margin-bottom: 20px;
+}
+
+.footer .ftr_item form .btn_one{
+    border-radius: 0;
+    padding: 8px 0;
+    margin-bottom: 30px;
+}
+.footer .ftr_item .social_icn img{
+    margin-right: 20px;
+
+}
+.footer .ftr_item .social_icn i{
+    font-size: 26px;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.copyright p{
+    margin-bottom: 0;
+    padding: 25px 0;
+
+}
