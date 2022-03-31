@@ -16,7 +16,7 @@ $(function(){
         arrows: false,
         dots: true,
         asNavFor: '.slider-nav',
-        // autoplay: true,
+        autoplay: true,
         autoplaySpeed: 4000,
       });
       $('.slider-nav').slick({

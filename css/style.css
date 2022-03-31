@@ -93,6 +93,13 @@ body{
 
 /* ===== common css end ===== */
 
+.navbar-light .navbar-toggler{
+    color: #252525;
+    font-size: 30px;
+    border-color: #252525;
+    box-shadow: none;
+    outline: none;
+}
 
 .navbar{
     overflow-x: hidden;
@@ -140,7 +147,6 @@ body{
 .lg_nav_btn{
     cursor: pointer;
     transition: all linear .3s;
-    width: 100px;
 }
 .lg_nav_btn .long{
     width: 38px;
@@ -304,13 +310,24 @@ body{
 .play_btn a i{
     width: 75px;
     height: 75px;
-    border-radius: 50px;
+    border-radius: 50%;
     background: #fff;
     display: inline-block;
     font-size: 40px;
     color: #000;
     text-align: center;
     line-height: 75px;
+}
+.banner .slick-dots{
+    bottom: -80px;
+    padding-left: 0;
+}
+
+.about{
+    padding-bottom: 40px;
+}
+.about .about_content{
+    margin-bottom: 50px;
 }
 /* ===== banner css end ===== */
 
@@ -401,6 +418,7 @@ body{
     padding: 76px 35px 10px 35px;
     background: #e4e5e9;
     transition: all linear .3s;
+    text-align: center;
 }
 
 .features .features_item:hover{
@@ -536,10 +554,7 @@ body{
     margin-right: 7px;
     font-size: 22px;
 }
-.footer .ftr_item a img{
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
+
 .footer .ftr_item form.form-control{
     background: transparent;
     border: none;
